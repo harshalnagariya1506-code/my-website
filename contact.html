@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<h1>Contact Me</h1>
+<p>Email: example@email.com</p>
+<p>Phone: 9876543210</p>
+
+</body>
+</html>
+<form>
+    <input type="text" placeholder="Harshal Nagariya" required><br><br>
+
+    <input type="email" placeholder="harsh@gamil.com" required><br><br>
+
+    <textarea placeholder="my photo" rows="4" required></textarea><br><br>
+
+    <button type="submit">Send Message</button>
+</form>
+<script>
+    document.querySelector("form").onsubmit = function () {
+        alert("Thank you! Your message has been sent.");
+        return false;
+    };
+</script>
